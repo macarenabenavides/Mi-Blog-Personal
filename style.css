@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.Menu{
+    font-family:'Ubuntu', sans-serif;
+}
+body{
+    background-color: rgb(157, 156, 156);
+}
+.card-title{
+    font-family: 'Neucha', cursive;
+    font-size: xx-large;
+}
+
+.card {
+    --bs-card-spacer-y: 3rem;
+    --bs-card-spacer-x: 2rem;
+    --bs-card-title-spacer-y: 2.5rem;
+    --bs-card-border-width: 46px;
+}
+
+.card-text{
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-img-top {
+    width: 12%;
+}
+
+.pie{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    font-family: 'Neucha', cursive;
+    font-weight: bolder;
+
+}
